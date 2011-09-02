@@ -1,2 +1,47 @@
-Simple readme file. First commit.
+/*
+	Copyright (C) 2011 by NetherLink
+	
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+*/
 
+Thank you for your interest in NetherPoints by NetherLink! This plugin is meant to
+ease travel from place to place by means of teleporters and waypoints.
+
+Installation should be extremely simple. Just download NetherPoints.jar, drop
+it into your plugins folder, and reload. Everything should work fine. If you get
+a [SEVERE] warning in the console, try dowloading SQLite and placing it in your
+CraftBukkit or CraftBukkit/lib folder.
+
+http://files.zentus.com/sqlitejdbc/sqlitejdbc-v056.jar <----- Link for SQLite jar.
+
+The code is distributed under the MIT License, meaning you can do anything you'd like
+with the code. If you want to fork it or embed it in your applications, we'd love a
+link or a mention somewhere, but this isn't required.
+
+Thanks to the following people / groups / places / creepers:
+
+TechnoBulldog: Lead Developer
+Cabal: NetherLink Owner/Founder
+PatPatrson: Quality Assurance
+Rayman501ST: Test Server Provider
+Everyone at the Cloud Minecraft Server for testing and embracing this plugin
+
+Changelog:
+
+9/1/11 - Major overhaul of the original plugin by TechnoBulldog.
