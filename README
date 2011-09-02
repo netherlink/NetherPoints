@@ -1,3 +1,6 @@
+FOR A SIMPLE DOWNLOAD LINK, CHECK THE TOP OF THE GITHUB PAGE! LOOK FOR DOWNLOADS
+AND DOWNLOAD NETHERPOINTS.JAR! THEN PROCEED WITH INSTRUCTIONS BELOW!
+
 /*
 	Copyright (C) 2011 by NetherLink
 	
@@ -29,6 +32,10 @@ a [SEVERE] warning in the console, try dowloading SQLite and placing it in your
 CraftBukkit or CraftBukkit/lib folder.
 
 http://files.zentus.com/sqlitejdbc/sqlitejdbc-v056.jar <----- Link for SQLite jar.
+
+Need help using the plugin? Check out the wiki!
+
+https://github.com/netherlink/netherpoints/wiki
 
 The code is distributed under the MIT License, meaning you can do anything you'd like
 with the code. If you want to fork it or embed it in your applications, we'd love a
