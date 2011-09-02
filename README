@@ -39,7 +39,11 @@ https://github.com/netherlink/netherpoints/wiki
 
 The code is distributed under the MIT License, meaning you can do anything you'd like
 with the code. If you want to fork it or embed it in your applications, we'd love a
-link or a mention somewhere, but this isn't required.
+link or a mention somewhere, but this isn't required. However, any copyright notices
+already in place must be left there.
+
+I should point out that in netherpoints.java, the doesTableExist function was taken
+from Taylor Kelly in his MyHome plugin and modified for this plugin by TechnoBulldog.
 
 Thanks to the following people / groups / places / creepers:
 

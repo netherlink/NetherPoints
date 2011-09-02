@@ -98,6 +98,7 @@ public class netherpoints extends JavaPlugin{
 		}
 	}
 	
+	// THIS FUNCTION WAS INSPIRED BY TAYLOR KELLY MODIFIED BY TECHNOBULLDOG.
 	public boolean doesTableExist(String name){
 		ResultSet resultSet = null;
 		DatabaseMetaData databaseMetadata = null;
