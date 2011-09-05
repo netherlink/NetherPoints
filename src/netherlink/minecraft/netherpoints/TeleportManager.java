@@ -136,7 +136,7 @@ public class TeleportManager{
 	public void teleport(Player p, Block b, String network, String destination, String parameters){
 		// Variables for important stuff.
 		boolean leaveSign = false;
-		boolean leaveKey = true;
+		boolean leaveKey = false;
 		String dest = destination.replaceAll("[^a-zA-Z0-9\\s]", "");
 		String net = network.replaceAll("[^a-zA-Z0-9\\s]", "");
 		String paramsx = parameters.replaceAll("[^a-zA-Z0-9\\s]", "");
@@ -175,9 +175,9 @@ public class TeleportManager{
 			p.sendMessage(ChatColor.LIGHT_PURPLE + "No waypoint with that name was found.");
 			b.getRelative(0, 1, 0).setTypeId(0); // Replace the sign with air.
 			p.getWorld().dropItem(p.getLocation(), new ItemStack(Material.SIGN, 1)); // Give the user their sign back.
-			b.setTypeId(0); // Replace the sign with air.
 			if(b.getType() != Material.AIR) // Don't give them air though.
 				p.getWorld().dropItem(p.getLocation(), new ItemStack(b.getType(), 1)); // Give the user their item back.
+			b.setTypeId(0); // Replace the sign with air.
 			return;
 		}
 		
@@ -189,9 +189,9 @@ public class TeleportManager{
 				p.getWorld().dropItem(p.getLocation(), new ItemStack(Material.SIGN, 1)); // Give the user their sign back.
 			}
 			if(!leaveKey){ // Do not leave the key.
-				b.setTypeId(0); // Replace the key with air.
 				if(b.getType() != Material.AIR)
 					p.getWorld().dropItem(p.getLocation(), new ItemStack(b.getType(), 1)); // Give the user their key back.
+				b.setTypeId(0); // Replace the key with air.
 			}
 			return;
 		}
@@ -202,9 +202,9 @@ public class TeleportManager{
 			waypointList.remove(w.getBlock());
 			b.getRelative(0, 1, 0).setTypeId(0); // Replace the sign with air.
 			p.getWorld().dropItem(p.getLocation(), new ItemStack(Material.SIGN, 1)); // Give the user their sign back.
-			b.setTypeId(0); // Replace the key with air.
 			if(b.getType() != Material.AIR)
 				p.getWorld().dropItem(p.getLocation(), new ItemStack(b.getType(), 1)); // Give the user their key back.
+			b.setTypeId(0); // Replace the key with air.
 			return;
 		}
 		
@@ -215,9 +215,9 @@ public class TeleportManager{
 			p.getWorld().dropItem(p.getLocation(), new ItemStack(Material.SIGN, 1)); // Give the user their sign back.
 		}
 		if(!leaveKey){ // Do not leave the key.
-			b.setTypeId(0); // Replace the key with air.
 			if(b.getType() != Material.AIR)
 				p.getWorld().dropItem(p.getLocation(), new ItemStack(b.getType(), 1)); // Give the user their key back.
+			b.setTypeId(0); // Replace the key with air.
 		}
 		
 	}
