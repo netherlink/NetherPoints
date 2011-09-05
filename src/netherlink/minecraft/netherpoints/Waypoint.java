@@ -75,9 +75,9 @@ public class Waypoint{
 	}
 	
 	public boolean verify(){
-		if(b.getTypeId() != 20) // If the block at that location is not glass (20) the verification fails.
-			return false;
-		return true;
+		if(location.getBlock().getTypeId() == 20) // If the block at that location is not glass (20) the verification fails.
+			return true;
+		return false;
 	}
 	
 	/*

@@ -55,6 +55,7 @@ Everyone at the Cloud Minecraft Server for testing and embracing this plugin
 
 Changelog:
 
-9/5/11 - Fixed a bug with the key not being given back.
+9/5/11 - Fixed a bug with the key not being given back. Also fixed the problem
+with Waypoints not working on unloaded chunks.
 
 9/1/11 - Major overhaul of the original plugin by TechnoBulldog.
